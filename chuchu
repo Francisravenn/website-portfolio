@@ -1,0 +1,24 @@
+ <nav class="navibar">
+        <img src="">
+        <h1 class="name">Francis</h1>
+        <ul class="navlink">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Projects</a></li>
+            <li class="ctme"><a href="#">Contacts</a></li>
+        </ul>
+    </nav>
+    <div class="pic">
+        <img src="1.png" alt="Image with class" class="ewanpic">
+    </div>
+
+
+    <header>
+        <div class="contents">
+            <h1>Hello! I'm Francis </h1>
+            <h2>Aspiring Web Developer</h2>
+            <p>I am a student web developer who is passionate about </br> creating unique and appealing websites. I enjoy building </br>  everything from small business sites to rich interative web </br>  apps. If you seek a web precense or an employee looking to </br>  hire, you can get in touch with me here. </p>
+            <a href="#" class="btndown">Download CV</a>
+            <a href="#" class="btnCon">Contact Me</a>
+        </div>
+    </header>
