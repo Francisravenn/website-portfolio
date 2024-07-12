@@ -1096,7 +1096,7 @@ footer p {
 }
 
 
-@media (max-width:435px){
+@media (max-width:425px){
     .ContactMe {
         width: 100%;
         background-position: center;
@@ -1107,7 +1107,7 @@ footer p {
         align-items: center;
         padding-left: 100px;
         padding-right: 100px; 
-        background-image: url("tabbackg_1.png");
+        background-image: url("aboutmephonebg.png");
     }
     
     .ContactMe h1 {
