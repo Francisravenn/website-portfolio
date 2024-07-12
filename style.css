@@ -37,7 +37,7 @@ nav ul{
 
 }
 nav ul li {
-    margin: 0 10px; /* 0 for top/bottom, 10px for left/right */
+    margin: 0 10px; 
 }
 
 nav ul li a{
@@ -106,42 +106,6 @@ p{
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.btndown{
-    width: 290px;
-    height:50px;
-    margin-left: -1400px;
-    text-decoration: none;
-    font-size: 30px;
-    background-color: #007bff;
-    color: white;
-    border: none;
-    border-radius: 10px;
-    cursor: pointer;
-}
-
-.btndown:hover {
-    background-color: #0056b3;
-}
-
-
-.btnCon{
-    width: 290px;
-    height:50px;
-    margin-left: 50px;
-    font-size: 30px;
-    text-decoration: none;
-    background-color: #007bff;
-    color: white;
-    border: none;
-    border-radius: 10px;
-    cursor: pointer;
-    white-space: nowrap;
-}
-
-.btnCon:hover {
-    background-color: #0056b3;
-}
-
 /* end of homepage */
 
 /*responsive tablet homepage */
@@ -173,7 +137,7 @@ p{
     
     }
     nav ul li {
-        margin: 10px; /* 0 for top/bottom, 10px for left/right */  
+        margin: 10px;
         margin-top: -1px;
     }
     
@@ -241,46 +205,10 @@ p{
         font-family: Arial, Helvetica, sans-serif;
     }
     
-    .btndown{
-        width: 150px;
-        height:50px;
-        margin-left: -730px;
-        text-decoration: none;
-        font-size: 20px;
-        background-color: #007bff;
-        color: white;
-        border: none;
-        border-radius: 10px;
-        cursor: pointer;
-    }
     
-    .btndown:hover {
-        background-color: #0056b3;
-    }
-    
-    
-    .btnCon{
-        width: 150px;
-        height:50px;
-        margin-left: 30px;
-        font-size: 20px;
-        text-decoration: none;
-        background-color: #007bff;
-        color: white;
-        border: none;
-        border-radius: 10px;
-        cursor: pointer;
-        white-space: nowrap;
-    }
-    
-    .btnCon:hover {
-        background-color: #0056b3;
-    }
 } 
 
 /* end of responsive tablet homepage */
-
-
 
 
 /* start mobile homepage */
@@ -316,7 +244,7 @@ p{
     
     }
     nav ul li {
-        margin: 10px; /* 0 for top/bottom, 10px for left/right */  
+        margin: 10px; 
         margin-top: -1px;
     }
     
@@ -384,52 +312,17 @@ p{
         font-family: Arial, Helvetica, sans-serif;
     }
     
-    .btndown{
-        width: 140px;
-        height:40px;
-        margin-left: -350px;
-        text-decoration: none;
-        font-size: 15px;
-        background-color: #007bff;
-        color: white;
-        border: none;
-        border-radius: 10px;
-        cursor: pointer;
-    }
-    
-    .btndown:hover {
-        background-color: #0056b3;
-    }
-    
-    
-    .btnCon{
-        width: 130px;
-        height:40px;
-        margin-left: 10px;
-        font-size: 15px;
-        text-decoration: none;
-        background-color: #007bff;
-        color: white;
-        border: none;
-        border-radius: 10px;
-        cursor: pointer;
-        white-space: nowrap;
-    }
-    
-    .btnCon:hover {
-        background-color: #0056b3;
-    }
     .vertical-align {
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        height: 100%; /* Ensure the parent container has a defined height */
+        height: 100%; 
     }
     
-    /* Optional: Add some styling to the links */
+   
     .vertical-align li {
-        margin-bottom: 10px; /* Adjust as needed */
+        margin-bottom: 10px; 
     }
     
     #nav-links {
@@ -439,28 +332,28 @@ p{
         right: 0;
         height: 100%;
         width: 150px;
-        background-color: rgb(8, 34, 138); /* Blue background color for visibility */
+        background-color: rgb(8, 34, 138); 
         padding-top: 60px;
         z-index: 2;
         transition: transform 0.3s ease;
         transform: translateX(100%);
-        box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Optional: add a shadow for depth */
-        overflow-y: auto; /* Enable vertical scrolling if needed */
-        display: flex; /* Use Flexbox */
-        flex-direction: column; /* Align items vertically */
-        justify-content: center; /* Center items vertically */
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); 
+        overflow-y: auto; 
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
     }
     
     #nav-links ul {
-        list-style-type: none; /* Remove default list styles */
+        list-style-type: none;
         padding: 0;
         margin: 0;
-        width: 100%; /* Ensure the ul takes full width */
+        width: 100%; 
     }
     
     #nav-links li {
-        margin-bottom: 10px; /* Space between each list item */
-        text-align: center; /* Center text horizontally */
+        margin-bottom: 10px;
+        text-align: center;
     }
     
     #nav-links li a {
@@ -468,7 +361,7 @@ p{
         text-decoration: none;
         color: white;
         padding: 10px 20px;
-        transition: background-color 0.3s ease; /* Smooth transition for background color change */
+        transition: background-color 0.3s ease; 
         position: relative;
         top: -10px;
         margin-bottom: 50px;
@@ -476,7 +369,7 @@ p{
     }
     
     #nav-links li a:hover {
-        background-color: #0097a7; /* Darker cyan color on hover */
+        background-color: #0097a7; 
     }
     
     .show-nav #nav-links {
@@ -541,7 +434,7 @@ section{
     border-radius: 5px;
     cursor: pointer;
     transition: background-color 0.3s ease;
-    margin-left: 700px; /* Adjust margin as needed */
+    margin-left: 700px; 
 } 
 
 .rdmore:hover {
@@ -555,24 +448,24 @@ section{
 }
 
 .aboutme {
-    position: relative; /* Ensure relative positioning for absolute elements inside */
+    position: relative; 
 }
 
 .aboutmepic {
     position: absolute;
-    top: 10px; /* Adjust top position as needed */
-    left: 150px; /* Adjust right position as needed */
+    top: 10px; 
+    left: 150px; 
 }
 
 .aboutpic {
-    height: 70vh; /* Adjust height as needed */
-    width: 60vh; /* Maintain aspect ratio */
-    border-radius: 50%; /* Ensure round shape */
+    height: 70vh; 
+    width: 60vh; 
+    border-radius: 50%; 
 
 }
 
 .hide {
-    display: none; /* Hidden class */
+    display: none; 
 }
 
 @media (max-width:768px){
@@ -623,7 +516,7 @@ section{
         border-radius: 5px;
         cursor: pointer;
         transition: background-color 0.3s ease;
-        margin-left: 360px; /* Adjust margin as needed */
+        margin-left: 360px; 
     } 
     
     .rdmore:hover {
@@ -637,24 +530,24 @@ section{
     }
     
     .aboutme {
-        position: relative; /* Ensure relative positioning for absolute elements inside */
+        position: relative; 
     }
     
     .aboutmepic {
         position: absolute;
-        top: -10px; /* Adjust top position as needed */
-        left: 100px; /* Adjust right position as needed */
+        top: -10px; 
+        left: 100px; 
     }
     
     .aboutpic {
-        height: 50vh; /* Adjust height as needed */
-        width: 40vh; /* Maintain aspect ratio */
-        border-radius: 50%; /* Ensure round shape */
+        height: 50vh; 
+        width: 40vh; 
+        border-radius: 50%; 
     
     }
     
     .hide {
-        display: none; /* Hidden class */
+        display: none; 
     }
 }
 
@@ -707,7 +600,7 @@ section{
         border-radius: 5px;
         cursor: pointer;
         transition: background-color 0.3s ease;
-        margin-left: 150px; /* Adjust margin as needed */
+        margin-left: 150px; 
     } 
     
     .rdmore:hover {
@@ -721,25 +614,25 @@ section{
     }
     
     .aboutme {
-        position: relative; /* Ensure relative positioning for absolute elements inside */
+        position: relative; 
     }
     
     .aboutmepic {
         position: absolute;
-        top: -50px; /* Adjust top position as needed */
-        left: 100px; /* Adjust right position as needed */
+        top: -50px; 
+        left: 100px; 
     }
     
     .aboutpic {
-        height: 50vh; /* Adjust height as needed */
-        width: 40vh; /* Maintain aspect ratio */
-        border-radius: 50%; /* Ensure round shape */
+        height: 50vh; 
+        width: 40vh; 
+        border-radius: 50%; 
         position: absolute;
     
     }
     
     .hide {
-        display: none; /* Hidden class */
+        display: none; 
     }
 }
 
@@ -775,15 +668,15 @@ section{
 
 .horizontal-projects {
     display: flex;
-    justify-content: space-between; /* Adjust spacing between items */
-    width: 80%; /* Adjusted width to accommodate the items */
-    margin: 0 auto; /* Center horizontally */
-    margin-top: 20px; /* Optional: Adjust top margin */
+    justify-content: space-between; 
+    width: 80%; 
+    margin: 0 auto; 
+    margin-top: 20px; 
 }
 
 .project-item {
     text-align: center;
-    width: 30%; /* Adjust width as needed */
+    width: 30%; 
     margin-top: 20px;
 }
 
@@ -794,19 +687,19 @@ section{
     color: azure;
     font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
-    padding: 5px; /* Added padding for better spacing */
+    padding: 5px; 
     border-radius: 8px;
 }
 
 .project-item a {
     display: block;
-    border: solid #0056b3; /* Added border around the anchor tag */
+    border: solid #0056b3; 
     background-color: #007bff;;
     font-size: 20px;
     color: azure;
-    text-decoration: none; /* Remove default underline */
-    padding: 8px 15px; /* Added padding for better spacing */
-    margin-top: 10px; /* Adjust top margin */
+    text-decoration: none; 
+    padding: 8px 15px; 
+    margin-top: 10px; 
     font-family: Arial, Helvetica, sans-serif;
     border-radius: 8px;
 }
@@ -817,9 +710,9 @@ section{
 }
 .resume, .calculator, .website {
     margin-top: 100px;
-    width: 100%; /* Ensure images fill their container */
+    width: 100%; 
     height: auto;
-    max-width: 100%; /* Ensure images don't exceed their container */
+    max-width: 100%; 
     border-radius: 5px;
 }
 .calculator{
@@ -827,29 +720,6 @@ section{
     height:46.8%
 }
 
-.want-more {
-    margin-left: -10%;
-    margin-top: 60px; /* Adjust top margin as needed */
-    font-size: 24px;
-    color: #fff; /* Adjust text color */
-}
-
-.more-button {
-    margin-left: 280px;
-    margin-top: -37px; /* Adjust top margin as needed */
-    width: 12%;
-    font-size: 18px;
-    color:  azure;
-    background-color: #007bff;
-    border-color: #007bff;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-    border-radius: 8px;
-}
-
-.more-button:hover {
-    background-color: #0056b3;
-}
 
 @media (max-width:768px){
     .projects {
@@ -881,15 +751,15 @@ section{
     
     .horizontal-projects {
         display: flex;
-        justify-content: space-between; /* Adjust spacing between items */
-        width: 80%; /* Adjusted width to accommodate the items */
-        margin: 0 auto; /* Center horizontally */
-        margin-top: 20px; /* Optional: Adjust top margin */
+        justify-content: space-between; /
+        width: 80%; 
+        margin: 0 auto; 
+        margin-top: 20px; 
     }
     
     .project-item {
         text-align: center;
-        width: 30%; /* Adjust width as needed */
+        width: 30%; 
         margin-top: 20px;
     }
     
@@ -900,19 +770,19 @@ section{
         color: azure;
         font-size: 20px;
         font-family: Arial, Helvetica, sans-serif;
-        padding: 5px; /* Added padding for better spacing */
+        padding: 5px; 
         border-radius: 8px;
     }
     
     .project-item a {
         display: block;
-        border: solid #0056b3; /* Added border around the anchor tag */
+        border: solid #0056b3; 
         background-color: #007bff;;
         font-size: 20px;
         color: azure;
-        text-decoration: none; /* Remove default underline */
-        padding: 8px 15px; /* Added padding for better spacing */
-        margin-top: 10px; /* Adjust top margin */
+        text-decoration: none; 
+        padding: 8px 15px; 
+        margin-top: 10px; 
         font-family: Arial, Helvetica, sans-serif;
         border-radius: 8px;
     }
@@ -923,9 +793,9 @@ section{
     }
     .resume, .calculator, .website {
         margin-top: 70px;
-        width: 100%; /* Ensure images fill their container */
+        width: 100%; 
         height: auto;
-        max-width: 100%; /* Ensure images don't exceed their container */
+        max-width: 100%; 
         border-radius: 5px;
     }
 
@@ -940,30 +810,6 @@ section{
         height: 55.8%;
     }
 
-    
-    .want-more {
-        margin-left: -150px;
-        margin-top: 110px; /* Adjust top margin as needed */
-        font-size: 24px;
-        color: cyan; /* Adjust text color */
-        font-family: Arial, Helvetica, sans-serif;
-    }
-    
-    .more-button {
-        margin-left: 220px;
-        margin-top: -32px; /* Adjust top margin as needed */
-        width: 15%;
-        font-size: 18px;
-        color:  azure;
-        background-color: #007bff;
-        cursor: pointer;
-        transition: background-color 0.3s ease;
-        border-radius: 8px;
-    }
-    
-    .more-button:hover {
-        background-color: #0056b3;
-    }
 }
 
 @media (max-width:425px){
@@ -996,15 +842,15 @@ section{
     
     .horizontal-projects {
         display: flex;
-        justify-content: space-between; /* Adjust spacing between items */
-        width: 80%; /* Adjusted width to accommodate the items */
-        margin: 0 auto; /* Center horizontally */
-        margin-top: 20px; /* Optional: Adjust top margin */
+        justify-content: space-between; 
+        width: 80%; 
+        margin: 0 auto; 
+        margin-top: 20px; 
     }
     
     .project-item {
         text-align: center;
-        width: 30%; /* Adjust width as needed */
+        width: 30%;
         margin-top: 20px;
     }
     
@@ -1015,19 +861,19 @@ section{
         color: azure;
         font-size: 15px;
         font-family: Arial, Helvetica, sans-serif;
-        padding: 5px; /* Added padding for better spacing */
+        padding: 5px; 
         border-radius: 8px;
     }
     
     .project-item a {
         display: block;
-        border: solid #0056b3; /* Added border around the anchor tag */
+        border: solid #0056b3; 
         background-color: #007bff;;
         font-size: 15px;
         color: azure;
-        text-decoration: none; /* Remove default underline */
-        padding: 8px 15px; /* Added padding for better spacing */
-        margin-top: 10px; /* Adjust top margin */
+        text-decoration: none; 
+        padding: 8px 15px; 
+        margin-top: 10px; 
         font-family: Arial, Helvetica, sans-serif;
         border-radius: 8px;
     }
@@ -1040,7 +886,7 @@ section{
         margin-top: 50px;
         width: 100%;
         height: auto;
-        max-width: 200%; /* Ensure images don't exceed their container */
+        max-width: 200%; 
         border-radius: 5px;
 
     }
@@ -1056,30 +902,6 @@ section{
         height: 60%;
     }
 
-    
-    .want-more {
-        margin-left: -100px;
-        margin-top: 110px; /* Adjust top margin as needed */
-        font-size: 18px;
-        color: cyan; /* Adjust text color */
-        font-family: Arial, Helvetica, sans-serif;
-    }
-    
-    .more-button {
-        margin-left: 200px;
-        margin-top: -29px; /* Adjust top margin as needed */
-        width: 25%;
-        font-size: 13px;
-        color:  azure;
-        background-color: #007bff;
-        cursor: pointer;
-        transition: background-color 0.3s ease;
-        border-radius: 8px;
-    }
-    
-    .more-button:hover {
-        background-color: #0056b3;
-    }
 }
 
 .ContactMe {
@@ -1088,15 +910,15 @@ section{
     background-size: cover;
     height: 120vh;
     display: flex;
-    justify-content: space-between; /* Adjust spacing between elements */
+    justify-content: space-between; 
     align-items: center;
     padding-left: 100px;
-    padding-right: 100px; /* Added padding to center content */
+    padding-right: 100px; 
     background-image: url(tablethomepagebg.png);
 }
 
 .ContactMe h1 {
-    margin-top: -650px; /* Adjusted top margin */
+    margin-top: -650px; 
     margin-left: 550px;
     font-size: 40px;
     color: cyan;
@@ -1107,11 +929,11 @@ section{
     margin-left: -1000px;
     margin-top: 100px;
     color: #0e0d0d;
-    width: 350px; /* Adjusted width */
+    width: 350px; 
     height: 260px;
     border-radius: 10px;
     text-align: center;
-    padding: 20px; /* Added padding for spacing */
+    padding: 20px; 
     box-shadow: 0 4px 8px rgba(156, 35, 156, 0.1);
     display: flex;
     flex-direction:column;
@@ -1121,11 +943,11 @@ section{
 
 .contactinfo i {
     color: #0e0d0d;
-    margin-bottom: 10px; /* Adjusted margin */
-    font-size: 35px; /* Adjusted icon size */
-    display: flex; /* Align icons horizontally */
-    align-items: center; /* Center align items */
-    margin-right: 5px; /* Adjust spacing between icon and text */
+    margin-bottom: 10px; 
+    font-size: 35px; 
+    display: flex; 
+    align-items: center; 
+    margin-right: 5px; 
 }
 
 .contactinfo span {
@@ -1133,8 +955,8 @@ section{
     text-transform: lowercase;
     font-weight: bold;
     font-size: 25px;
-    display: flex; /* Display text as inline-block */
-    margin-bottom: 10px; /* Adjusted margin */
+    display: flex; 
+    margin-bottom: 10px; 
 }
 
 .form {
@@ -1142,22 +964,22 @@ section{
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    width: 550px; /* Adjusted width */
+    width: 550px; 
     margin-top: 100px;
     margin-bottom: -20px;
     margin-left: -110px;
 }
 
 input, textarea, button {
-    width: 100%; /* Ensures full width within their container */
+    width: 100%; 
     height: 40px;
     margin-bottom: 20px;
     padding: 10px;
     border-radius: 5px;
-    border: 3px solid cyan; /* Adjusted border color */
+    border: 3px solid cyan; 
     font-size: 16px;
     background-color: #0b0b0b;
-    color: rgb(233, 227, 227); /* Text color */
+    color: rgb(233, 227, 227); 
 }
 
 textarea {
@@ -1170,11 +992,11 @@ button[type="submit"] {
     border: none;
     cursor: pointer;
     font-size: 18px;
-    padding: 10px 20px; /* Adjusted padding */
+    padding: 10px 20px; 
 }
 
 button[type="submit"]:hover {
-    background-color: #1f1f3b; /* Darken color on hover */
+    background-color: #1f1f3b; 
 }
 
 
@@ -1189,7 +1011,7 @@ footer {
 
 footer p {
     font-size: 20px;
-    margin: 0; /* Remove default margin */
+    margin: 0; 
 }
 
 
@@ -1200,15 +1022,15 @@ footer p {
         background-size: cover;
         height: 120vh;
         display: flex;
-        justify-content: space-between; /* Adjust spacing between elements */
+        justify-content: space-between; 
         align-items: center;
         padding-left: 100px;
-        padding-right: 100px; /* Added padding to center content */
+        padding-right: 100px; 
         background-image: url("tabbackg_1.png");
     }
     
     .ContactMe h1 {
-        margin-top: -550px; /* Adjusted top margin */
+        margin-top: -550px; 
         margin-left: 200px;
         font-size: 40px;
         color: cyan;
@@ -1221,7 +1043,7 @@ footer p {
         display: flex;
         flex-direction: column;
         align-items: flex-start;
-        width: 350px; /* Adjusted width */
+        width: 350px; 
         margin-top: 100px;
         margin-bottom: -20px;
         margin-right: 100px;
@@ -1229,15 +1051,15 @@ footer p {
     }
     
     input, textarea, button {
-        width: 100%; /* Ensures full width within their container */
+        width: 100%; 
         height: 40px;
         margin-bottom: 20px;
         padding: 10px;
         border-radius: 5px;
-        border: 3px solid cyan; /* Adjusted border color */
+        border: 3px solid cyan; 
         font-size: 16px;
         background-color: #0b0b0b;
-        color: rgb(233, 227, 227); /* Text color */
+        color: rgb(233, 227, 227); 
     }
     
     textarea {
@@ -1250,11 +1072,11 @@ footer p {
         border: none;
         cursor: pointer;
         font-size: 18px;
-        padding: 10px 20px; /* Adjusted padding */
+        padding: 10px 20px; 
     }
     
     button[type="submit"]:hover {
-        background-color: #1f1f3b; /* Darken color on hover */
+        background-color: #1f1f3b; 
     }
     
     
@@ -1269,7 +1091,7 @@ footer p {
     
     footer p {
         font-size: 20px;
-        margin: 0; /* Remove default margin */
+        margin: 0; 
     }
 }
 
@@ -1281,15 +1103,15 @@ footer p {
         background-size: cover;
         height: 120vh;
         display: flex;
-        justify-content: space-between; /* Adjust spacing between elements */
+        justify-content: space-between; 
         align-items: center;
         padding-left: 100px;
-        padding-right: 100px; /* Added padding to center content */
+        padding-right: 100px; 
         background-image: url("tabbackg_1.png");
     }
     
     .ContactMe h1 {
-        margin-top: -500px; /* Adjusted top margin */
+        margin-top: -500px; 
         margin-left: 10px;
         font-size: 40px;
         color: rgb(129, 229, 229);
@@ -1302,7 +1124,7 @@ footer p {
         display: flex;
         flex-direction: column;
         align-items: flex-start;
-        width: 350px; /* Adjusted width */
+        width: 350px; 
         margin-top: 100px;
         margin-bottom: 50px;
         margin-right: -65px;
@@ -1310,15 +1132,15 @@ footer p {
     }
     
     input, textarea, button {
-        width: 100%; /* Ensures full width within their container */
+        width: 100%; 
         height: 40px;
         margin-bottom: 20px;
         padding: 10px;
         border-radius: 5px;
-        border: 3px solid cyan; /* Adjusted border color */
+        border: 3px solid cyan; 
         font-size: 16px;
         background-color: #0b0b0b;
-        color: rgb(233, 227, 227); /* Text color */
+        color: rgb(233, 227, 227); 
     }
     
     textarea {
@@ -1331,11 +1153,11 @@ footer p {
         border: none;
         cursor: pointer;
         font-size: 18px;
-        padding: 10px 20px; /* Adjusted padding */
+        padding: 10px 20px; 
     }
     
     button[type="submit"]:hover {
-        background-color: #1f1f3b; /* Darken color on hover */
+        background-color: #1f1f3b; 
     }
     
     
@@ -1350,7 +1172,7 @@ footer p {
     
     footer p {
         font-size: 10px;
-        margin: 0; /* Remove default margin */
+        margin: 0; 
     }
 
 
