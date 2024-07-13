@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!--homepage-->
+    <div class="homepage">
+        <header>
+            <nav>
+                <div class="logo"><span class="cap">F</span>rancis.</div>
+                <div class="hamburger" onclick="toggleNav()">☰</div>
+                <div id="nav-links">
+                    <ul class="vertical-align">
+                        <li><a href="#">HOME</a></li>
+                        <li><a href="#about-me">ABOUT ME</a></li>
+                        <li><a href="#projects">PROJECTS</a></li>
+                        <li><a href="#contact">CONTACT</a></li>
+                    </ul>
+                </div>
+            </nav>
+            
+
+            <div class="pic">
+                <img src="1.png" alt="Image with class" class="ewanpic">
+            </div>
+            <div class="contents">
+                <h1>Hello! I'm <span class='hello'><em>Francis</em></span></h1>
+                <h2>Aspiring Web Developer</h2>
+                <br>
+                <p>I am a student web developer who is passionate </br>  about creating unique and appealing websites. </br>  I enjoy building everything from small business </br> sites to rich interative web apps. If you seek a </br> web precense or an employee looking to hire, </br> you can get in touch with me here. </p>
+                <br>
+                <br>
+                
+              
+            </div>
+        </header>
+    </div>
+    <!--end of homepage-->
+    <section  id="about-me">
+        <div class="aboutme">
+            <h1>About Me</h1>
+            <br>
+            <p>
+                I'm Francis Raven Salamo, a skilled web deleloper and <br> UI/UX designer and im from Lucena City, 
+                Quezon Province, Philippines with 4 years of experience as a web developer. My mission is
+                is to design and to develop a website that you and your audience will like.
+            </p>
+            <div id="additionalContent" style="display: none;">
+                <p class="p2">
+                    I understand the dynamics and ever-evolving nature of web development. My mission is
+                    to provide you with the latest tools, resources, and inisghts to help you stay ahead
+                    in this fast-paced industry.
+                </p>
+            </div>
+            <br>
+            <button class="rdmore" onclick="toggleMore()">Read More</button>
+            <div class="aboutmepic">
+                <img src="aboutmepic.jpg" alt="Image with class" class="aboutpic">
+            </div>
+        </div>   
+    </section>
+    
+    
+    <script>
+        function toggleMore() {
+            var additionalContent = document.getElementById("additionalContent");
+            var button = document.querySelector('.rdmore');
+    
+            if (additionalContent.style.display === "none") {
+                additionalContent.style.display = "block";
+                button.textContent = "Read Less";
+            } else {
+                additionalContent.style.display = "none";
+                button.textContent = "Read More";
+            }
+        }
+        function toggleNav() {
+            const navLinks = document.getElementById("nav-links");
+            document.body.classList.toggle('show-nav');
+            navLinks.classList.toggle('show-nav');
+        }
+        document.addEventListener('click', function(event) {
+            const navLinks = document.getElementById("nav-links");
+            const hamburger = document.querySelector('.hamburger');
+            if (!navLinks.contains(event.target) && event.target !== hamburger) {
+                document.body.classList.remove('show-nav');
+                navLinks.classList.remove('show-nav');
+            }
+        });
+
+
+    </script>
+    
+    <!-- end of about me -->
+
+    <section id="projects">
+        <div class="webprojects">
+            <h1>Projects</h1>
+            
+            <div class="project-section">
+                <div class="horizontal-projects">
+                    <div class="project-item">
+                        <img src="website.jpg" alt="website" class="website">
+                        <h3>Website</h3>
+                        <a href="https://tinrod02.github.io/Fhukerat-Shoe_Website/#news">Full Details</a>
+                    </div>
+                    
+                    <div class="project-item">
+                        <img src="resume.jpg" alt="resume" class="resume">
+                        <h3>Resume</h3>
+                        <a href="https://francisravenn.github.io/Responsive-Resume/">Full Details</a>
+                    </div>
+    
+                    <div class="project-item">
+                        <img src="calculator.jpg" alt="calculator" class="calculator">
+                        <h3>Calculator</h3>
+                        <a href="https://francisravenn.github.io/IPT101-calculator-app/">Full Details</a>
+                    </div>
+                </div>
+    
+            </div>
+        </div>
+    </section>
+    <section id="contact">
+        <div class="ContactMe">
+            <h1>Contacts</h1>
+        </div>
+        <form class="form">
+            <input type="text" name="name" placeholder="Name:" autocomplete="off" required>
+            <input type="text" name="email" placeholder="Email:" autocomplete="off" required>
+            <textarea rows="5" name="message" placeholder="Enter Text:" autocomplete="off" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+    <footer>
+        <p>&copy; 2024 Website Portfolio. All rights reserved.</p>
+        <p>Developed By: Francis Raven R. Salamo</p>
+    </footer>    
+  
+</body>
+</html>
